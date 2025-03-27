@@ -38,3 +38,9 @@ span {
   display: inline;
   color: blueviolet;
 }
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

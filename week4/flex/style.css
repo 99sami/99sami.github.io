@@ -53,6 +53,10 @@ body {
   padding: 10px;
 }
 
+.outer > * {
+  flex: 1;
+}
+
 /* .outer > * {
     flex: 1;
   } */
