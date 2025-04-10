@@ -1,8 +1,8 @@
-/*
+/* 
 * Kevin Powell
 * https://youtu.be/cCAtD_BAHNw
 */
-*,
+/* *,
 *::before,
 *::after {
   box-sizing: border-box;
@@ -44,4 +44,4 @@ p {
     scroll-behavior: smooth;
     scroll-padding-top: 3rem;
   }
-}
+} */
