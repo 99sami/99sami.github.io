@@ -2,19 +2,21 @@ body {
   font-size: 1.1rem;
   text-align: center;
   margin: 0 auto;
+  background-color: rgba(161, 161, 218, 0.939);
   /* horizontal centering */
 }
 
 h1 {
   font-size: 1.6rem;
-  font-weight: 700;
+  font-weight: 600;
   margin-top: 40px;
 }
 
 h2 {
-  font-size: 1rem;
-  font-weight: 400;
-  margin-left: 20px;
+  font-size: 1 rem;
+  font-weight: 700;
+  margin-left: px;
+  padding: 10px;
 }
 
 p {
@@ -26,7 +28,7 @@ p {
   margin-bottom: 20px;
   /* line-height: 200px; */
   border-bottom: 3px dashed rgb(19, 240, 229);
-  background-color: beige;
+  background-color: rgb(215, 249, 0);
 }
 
 .vcenter {
@@ -47,6 +49,7 @@ span {
 
 ul {
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
 }

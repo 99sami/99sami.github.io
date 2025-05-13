@@ -1,0 +1,303 @@
+:root {
+  --primary-bg-color: #eacbcb;
+  --text-color: #7e0e8de7;
+  --main-bg-color: #333;
+  --main-text-color: #fff;
+  --main-btn-bg-color: #938989;
+}
+
+body,
+h1,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: var(--primary-bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+
+/* Add additional styles as needed */
+
+/* Create a container for the main content */
+.container {
+  max-width: 1000px;
+  width: 100%;
+  padding: 10px;
+}
+
+/* Header styling */
+header {
+  background-color: pink;
+  color: purple;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+}
+
+/* Navigation styling */
+nav {
+  margin-top: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+/* Media player styling */
+.media-player {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem auto;
+}
+
+.media-player video {
+  width: 80%; /* Increase the width */
+  max-width: 800px; /* prevents video from getting too large */
+  border: 6px solid #2d2d2d; /* nice frame around the video */
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  display: block;
+  margin: 0 auto;
+}
+
+.custom-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+/*   
+  .custom-controls button {
+    background-color: var(--main-btn-bg-color);
+    color: var(--main-text-color);
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+  } */
+
+/* Buttons style */
+.custom-controls button {
+  background: #ffe0e0;
+  border-radius: 50%;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+/* Optional: button hover effect */
+.custom-controls button:hover {
+  background: #d97878;
+  transform: scale(1.1);
+}
+
+/* Controls button row */
+.custom-controls {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+/* Progress bar style */
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background: #e0e0e0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+/* .progress-bar span {
+  display: block;
+  height: 100%;
+  /* background-color: var(--main-bg-color); */
+/* background: linear-gradient(to right, #ff6f91, #ff9671);
+  width: 0;
+  transition: width 0.3s ease;
+} */
+
+.progress-bar span {
+  display: block;
+  height: 100%;
+  background: linear-gradient(to right, #ff6f91, #ff9671);
+  width: 0;
+  transition: width 0.3s ease;
+}
+
+/* Footer styling */
+footer {
+  background-color: lightgoldenrodyellow;
+  color: purple;
+  text-align: center;
+  padding: 10px 20px;
+  width: 100%;
+  font-family: "Comic Sans MS", sans-serif;
+  /* add a better playful font */
+  font-size: 12px;
+  /* Keep it cute n small */
+  color: #d5006d;
+  /* cute, bright colour */
+  background-color: lightgoldenrodyellow;
+  /* match the colour */
+  border-top: 2px solid #d5006d;
+  border-radius: 8px;
+}
+
+/* .controls-container {
+  background: #fff3f3;
+  padding: 15px 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(255, 105, 135, 0.3);
+  max-width: 700px;
+  margin: 20px auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+} */
+
+/* Controls outer container */
+.controls-container {
+  background: #fff3f3;
+  padding: 10px 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(255, 105, 135, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  width: 90%;
+  margin-top: 1.5rem; /* give some space between video and controlls  */
+}
+
+/* Page title */
+.page-title h1 {
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 3rem;
+  color: #ff6f91;
+  margin: 30px 0 10px;
+  background-color: #ffb6c1;
+  padding: 15px 10px;
+  /*  some padding to create space around the text */
+  border-radius: 5px;
+  /* add rounded corners for a softer look */
+  color: #d0eba1;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* bring a soft subtle shadow */
+}
+
+/* Video title */
+.video-title {
+  text-align: center;
+  font-family: "Arial Rounded MT Bold", sans-serif;
+  font-size: 1.8rem;
+  color: #ff9671;
+  margin-bottom: 15px;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-25px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+/* Bouncy title class */
+.bounce {
+  animation: bounce 1s ease;
+}
+
+.extra-content {
+  background: #fffafc;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 182, 193, 0.3);
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #5a0d44;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.extra-content h2 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.tip-box {
+  margin-top: 20px; /* Increased for more space */
+  text-align: center;
+  color: purple;
+  font-size: 14px;
+}
+
+#downloadBtn {
+  background-color: #ff8aa1;
+  color: white;
+  border: none;
+  padding: 10px 10px;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
