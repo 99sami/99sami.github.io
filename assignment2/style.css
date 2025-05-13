@@ -302,3 +302,25 @@ footer {
   cursor: pointer;
   transition: transform 0.2s ease;
 }
+
+.tip-box {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  padding: 10px;
+  background-color: #f4c9d2;
+  border-radius: 6px;
+  margin-top: 10px;
+  gap: 8px;
+}
+
+.tip-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.tip-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
