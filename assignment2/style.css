@@ -87,9 +87,9 @@ nav a {
 }
 
 .media-player video {
-  width: 80%; /* Increase the width */
-  max-width: 800px; /* prevents video from getting too large */
-  border: 6px solid #2d2d2d; /* nice frame around the video */
+  width: 80%;
+  max-width: 800px;
+  border: 6px solid #2d2d2d;
   border-radius: 12px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
   display: block;
@@ -213,7 +213,8 @@ footer {
   justify-content: center;
   max-width: 800px;
   width: 90%;
-  margin-top: 1.5rem; /* give some space between video and controlls  */
+  margin-top: 1.5rem;
+  /* add some space between video and controlls  */
 }
 
 /* Page title */
@@ -285,7 +286,7 @@ footer {
 }
 
 .tip-box {
-  margin-top: 20px; /* Increased for more space */
+  margin-top: 20px;
   text-align: center;
   color: purple;
   font-size: 14px;
