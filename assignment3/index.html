@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 3</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="nav-container">
+        <div class="logo">NARUTO Official Website</div>
+        <nav class="nav-links">
+          <a href="https://naruto-official.com/en/news" target="_blank">News</a>
+          <a href="https://naruto-official.com/en/comics" target="_blank"
+            >Comics</a
+          >
+          <a href="https://naruto-official.com/en/anime" target="_blank"
+            >Anime</a
+          >
+          <a href="https://naruto-official.com/en/goods" target="_blank"
+            >Merch</a
+          >
+          <a href="https://naruto-official.com/en/game" target="_blank"
+            >Games</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <section class="intro">
+      <p>
+        Welcome to the Hidden Leaf Village! Home to many legendary ninja clans.
+        Each clan carries unique abilities, traditions, and histories that shape
+        the world of shinobi. From the powerful Uchiha clan to the intelligent
+        Nara clan, explore each clan that define Konoha's legacy and learn more
+        about their origins, techniques, and contributions to the village.
+      </p>
+    </section>
+
+    <!-- The Naruto inspired context for my design influenced my choice to use bold
+    and vibrant colours like orange (#f57c00, signature colour of the TV series) and deep
+    red reflecting the energetic anime. I used a textured background to evoke an
+    ancient ‘ninja’ style setting and a bold dynamic font to reference the
+    action based tone of the series. My choices aim to immerse users and fans in
+    a visual world that feels authentic and engaging. -->
+
+    <!-- The comic style page and headlines is inspired by the Naruto website itself
+    (https://naruto-official.com/en/news) and so are the navigation links as they take you to the pages from the website it was inspired by. The
+    description paragraph is styled in a way to give in the feel of a mission
+    scroll or announcement scroll tying back to the aesthetics of the show. The
+    target audience is Naruto fans which are usually a younger demographic that
+    would already be familiar with interactive websites which made me prioritize
+    visual engagement and feedback. The layout uses Flexbox for responsive
+    scaling making sure the image grid adapts to other screen sizes. The
+    navigation links are kept simple and visible. I wanted to avoid clutter and
+    focus on intuitive layout design for accessibility for users. -->
+
+
+
+    <div class="gallery-wrapper">
+      <div class="gallery-title">Clans of the Hidden Leaf Village</div>
+
+      <!-- Clicking on each card will take you to the naruto wiki page of each clan to learn more!
+Ref:
+https://naruto.fandom.com/wiki/Uchiha_Clan
+https://naruto.fandom.com/wiki/Hy%C5%ABga_Clan 
+https://naruto.fandom.com/wiki/Nara_Clan
+https://naruto.fandom.com/wiki/Akimichi_Clan
+https://naruto.fandom.com/wiki/Aburame_Clan
+https://naruto.fandom.com/wiki/Uzumaki_Clan  -->
+
+
+            <div class="image-grid">
+                <a href="https://naruto.fandom.com/wiki/Uchiha_Clan" target="_blank" class="card-link">
+                  <div class="card">
+                    <div class="card-inner">
+                      <img src="f1.png" alt="Uchiha Front" class="card-front" />
+                      <img src="b1.png" alt="Uchiha Back" class="card-back" />
+                    </div>
+                  </div>
+                </a>
+              
+                <a href="https://naruto.fandom.com/wiki/Hy%C5%ABga_Clan" target="_blank" class="card-link">
+                  <div class="card">
+                    <div class="card-inner">
+                      <img src="f2.png" alt="Hyuga Front" class="card-front" />
+                      <img src="b2.png" alt="Hyuga Back" class="card-back" />
+                    </div>
+                  </div>
+                </a>
+              
+                <a href="https://naruto.fandom.com/wiki/Nara_Clan" target="_blank" class="card-link">
+                  <div class="card">
+                    <div class="card-inner">
+                      <img src="f3.png" alt="Nara Front" class="card-front" />
+                      <img src="b3.png" alt="Nara Back" class="card-back" />
+                    </div>
+                  </div>
+                </a>
+              
+                <a href="https://naruto.fandom.com/wiki/Akimichi_Clan" target="_blank" class="card-link">
+                  <div class="card">
+                    <div class="card-inner">
+                      <img src="f4.png" alt="Akimichi Front" class="card-front" />
+                      <img src="b4.png" alt="Akimichi Back" class="card-back" />
+                    </div>
+                  </div>
+                </a>
+              
+                <a href="https://naruto.fandom.com/wiki/Aburame_Clan" target="_blank" class="card-link">
+                  <div class="card">
+                    <div class="card-inner">
+                      <img src="f5.png" alt="Aburame Front" class="card-front" />
+                      <img src="b5.png" alt="Aburame Back" class="card-back" />
+                    </div>
+                  </div>
+                </a>
+              
+                <a href="https://naruto.fandom.com/wiki/Uzumaki_Clan" target="_blank" class="card-link">
+                  <div class="card">
+                    <div class="card-inner">
+                      <img src="f6.png" alt="Uzumaki Front" class="card-front" />
+                      <img src="b6.png" alt="Uzumaki Back" class="card-back" />
+                    </div>
+                  </div>
+                </a>
+              </div>
+              
+              <!-- Reflecting on challenges and benefits in the future, I think the hover to reveal function adds interactivity encouraging more exploration and the clickable cards means more clans and characters could be added easily without changing or ruining the design. The visual style links to a strong identity that can be preserved and extended over other sections of a larger website or digital design project.   
+
+              As more cards get added the layout being responsive across different devices may be challenging (like mobile) and may require a more flexible CSS and code. If too many cards flip when hovered over it may cause lag on some devices too and require users to have access to mouse. 
+               -->
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

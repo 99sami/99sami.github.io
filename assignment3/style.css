@@ -1,0 +1,257 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #fafafa;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-image: url("scroll.png");
+  /* added some texture to the bakground */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.logo {
+  font-family: "Bangers", cursive;
+  font-size: 32px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+/* .image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+} */
+
+/* .image-grid img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f57c00;
+  /* Naruto style orange */
+  color: #fff;
+}
+
+.main-header {
+  background-color: #000;
+  padding: 15px 0;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffa500;
+  letter-spacing: 2px;
+}
+
+/* header links */
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ffa500;
+}
+
+h1 {
+  margin: 30px 0 20px;
+  font-size: 36px;
+}
+
+/* .image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+} */
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* space it out a bit */
+  gap: 15px;
+  max-width: 100%;
+}
+/* .image-grid img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+} */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.intro {
+  margin-bottom: 40px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #833535;
+  /* new  */
+  /* background: rgba(249, 172, 131, 0.95);  */
+  color: #883832;
+  padding: 20px 30px;
+  border-radius: 12px;
+  max-width: 960px;
+  margin: 40px auto;
+  font-family: "Bangers", cursive;
+  font-size: 20px;
+  line-height: 1.6;
+  /* box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25); */
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 36px;
+}
+
+/* want to wrap the gallery and keep it centered and neat */
+.gallery-wrapper {
+  /* max-width: 960px; */
+  max-width: 1200px;
+  margin: 40px auto;
+  text-align: center;
+  perspective: 1500px;
+}
+
+/* lets style the title box */
+.gallery-title {
+  background-color: #f5e3c2; /* beige */
+  color: #e03333; /* dark orange */
+  font-size: 28px;
+  font-family: "Bangers", cursive;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  margin: 0 auto 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* want to keep grid stays the same */
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* gap: 20px; */
+  gap: 20px;
+}
+/* 
+.image-grid img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} */
+
+/* .card {
+  width: 300px;
+  height: 200px;
+  perspective: 1000px;
+} */
+
+.card {
+  width: 360px;
+  height: 240px;
+  perspective: 1000px;
+}
+
+.card-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+/* .card-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    transform-style: preserve-3d;
+    border-radius: 12px;
+    overflow: hidden;
+  } */
+
+.card.flip .card-inner {
+  transform: rotateY(180deg);
+}
+
+/* .card.flip .card-inner {
+    transform: rotateY(180deg);
+  } */
+
+/* .card-front,
+.card-back {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} */
+
+/* a lot of trial and error and youtube but git it in the end  */
+
+.card-front,
+.card-back {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-back {
+  transform: rotateY(180deg);
+}
