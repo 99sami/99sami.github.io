@@ -1,17 +1,31 @@
 body {
-  font-family: Arial, sans-serif;
-  padding: 20px;
-  background-color: #fafafa;
-  text-align: center;
-  font-family: Arial, sans-serif;
   margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f57c00;
+  /* naruto style orange */
   background-image: url("scroll.png");
-  /* added some texture to the bakground */
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   color: #fff;
+  text-align: center;
+}
+
+.intro {
+  font-family: "Bangers", cursive;
+  font-size: 20px;
+  line-height: 1.6;
+  background: rgba(249, 172, 131, 0.9);
+  color: #883832;
+  padding: 20px 30px;
+  border-radius: 12px;
+  max-width: 960px;
+  margin: 40px auto;
+  /* bring it into centre and horizontally */
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+  text-align: center;
 }
 
 .logo {
@@ -40,13 +54,11 @@ h1 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 } */
 
-body {
+/* body {
   font-family: Arial, sans-serif;
   margin: 0;
   background-color: #f57c00;
-  /* Naruto style orange */
-  color: #fff;
-}
+  /* Naruto slike tyle orange */
 
 .main-header {
   background-color: #000;
