@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  padding: 20px;
+  /* padding: 20px; */
   font-family: Arial, sans-serif;
   background-color: #f57c00;
   /* naruto style orange */
@@ -133,21 +133,15 @@ h1 {
 }
 
 .intro {
-  margin-bottom: 40px;
-  font-size: 18px;
+  max-width: 960px;
+  margin: 40px auto;
+  font-size: 20px;
   line-height: 1.6;
-  color: #833535;
-  /* new  */
-  /* background: rgba(249, 172, 131, 0.95);  */
+  font-family: "Bangers", cursive;
   color: #883832;
   padding: 20px 30px;
   border-radius: 12px;
-  max-width: 960px;
-  margin: 40px auto;
-  font-family: "Bangers", cursive;
-  font-size: 20px;
-  line-height: 1.6;
-  /* box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25); */
+  text-align: center;
 }
 
 h1 {
@@ -164,7 +158,7 @@ h1 {
   perspective: 1500px;
 }
 
-/* lets style the title box */
+/*  style the title box */
 .gallery-title {
   background-color: #f5e3c2; /* beige */
   color: #e03333; /* dark orange */
