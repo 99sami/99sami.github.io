@@ -13,18 +13,6 @@ body {
   text-align: center;
 }
 
-/* .intro {
-  font-family: "Bangers", cursive;
-  font-size: 20px;
-  line-height: 1.6;
-  background: rgba(249, 172, 131, 0.9);
-  color: #883832;
-  padding: 20px 30px;
-  border-radius: 12px;
-  max-width: 960px;
-  margin: 40px auto;
-  /* bring it into centre and horizontally */
-
 .logo {
   font-family: "Bangers", cursive;
   font-size: 32px;
@@ -50,12 +38,6 @@ h1 {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 } */
-
-/* body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  background-color: #f57c00;
-  /* Naruto slike tyle orange */
 
 .main-header {
   background-color: #000;
